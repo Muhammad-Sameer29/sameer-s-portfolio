@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090b10">
+  <meta name="description" content="Sameer Ilyas — frontend and full-stack web developer portfolio.">
+  <title>Sameer Ilyas | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Sameer Ilyas home">
+      <span class="brand-mark">S<span>.</span></span><span class="brand-name">SAMEER ILYAS</span>
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#work">Work</a><a href="#about">About</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-cta" href="#contact">Let's talk <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="availability"><span class="status-dot"></span> OPEN TO OPPORTUNITIES</div>
+        <p class="eyebrow hero-eyebrow">HELLO, I'M SAMEER —</p>
+        <h1>I build digital<br><span>experiences</span><br>for the web.</h1>
+        <p class="hero-description">Frontend developer with full-stack experience, focused on building thoughtful, responsive, and useful web applications.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explore my work <span>↘</span></a>
+          <a class="button button-ghost" href="assets/Sameer-Ilyas-CV.pdf" download>Download CV <span>↓</span></a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/Muhammad-Sameer29" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <span class="social-divider"></span>
+          <a id="linkedin-link" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Abstract developer illustration">
+        <div class="visual-grid"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="orbit-core"><span class="core-bracket">&lt;/&gt;</span><span class="core-caption">BUILD · LEARN · SHIP</span></div>
+        <div class="floating-chip chip-top"><span class="chip-dot"></span> Angular / TypeScript</div>
+        <div class="floating-chip chip-bottom"><span class="chip-icon">✳</span> Clean, responsive UI</div>
+        <span class="visual-cross cross-one">+</span><span class="visual-cross cross-two">+</span><span class="visual-star">✳</span>
+      </div>
+      <div class="hero-bottomline"><span>BASED IN PAKISTAN</span><span class="scroll-note"><span class="scroll-line"></span> SCROLL TO EXPLORE</span><span>WEB DEVELOPMENT · UI ENGINEERING</span></div>
+    </section>
+
+    <section class="section-wrap section-block" id="work">
+      <div class="section-heading">
+        <div><p class="eyebrow">01 / SELECTED WORK</p><h2>Things I've <span>built.</span></h2></div>
+        <a class="text-link" href="https://github.com/Muhammad-Sameer29" target="_blank" rel="noreferrer">All repositories on GitHub ↗</a>
+      </div>
+      <p class="section-intro">A selection of projects and experiments across web development, AI, and software engineering.</p>
+      <p class="repo-status" id="repo-status" aria-live="polite">Loading public repositories from GitHub…</p>
+      <div class="project-grid" id="project-grid">
+        <article class="project-card">
+          <div class="project-preview preview-angular"><div class="preview-top"><span class="preview-window-dots"><i></i><i></i><i></i></span><span class="preview-label">WEB APPLICATION</span></div><div class="preview-art"><span class="art-line line-a"></span><span class="art-line line-b"></span><div class="car-shape"><span></span></div><span class="art-caption">DEALS · ON · WHEELS</span></div></div>
+          <div class="project-content"><div class="project-meta"><span>TypeScript</span></div><h3>Deals-on-Wheels</h3><p>An Angular-based car marketplace for browsing and exploring vehicles through a responsive interface.</p><div class="tag-list"><span>Angular</span><span>TypeScript</span><span>Marketplace</span></div><div class="project-links"><a href="https://github.com/Muhammad-Sameer29/Deals-on-Wheels" target="_blank" rel="noreferrer">Source code <span>↗</span></a></div></div>
+        </article>
+        <article class="project-card">
+          <div class="project-preview preview-ai"><div class="preview-top"><span class="preview-window-dots"><i></i><i></i><i></i></span><span class="preview-label">AI / IOT PROJECT</span></div><div class="preview-art ai-art"><div class="ai-rings"><span>AI</span></div><span class="art-caption">DETECT · ALERT · RESPOND</span></div></div>
+          <div class="project-content"><div class="project-meta"><span>Python</span></div><h3>Blaze Shield</h3><p>An AI-powered fire and smoke detection system combining computer vision, Raspberry Pi, and Android integration.</p><div class="tag-list"><span>AI</span><span>Computer Vision</span><span>Raspberry Pi</span></div><div class="project-links"><a href="https://github.com/Muhammad-Sameer29/blaze-shield" target="_blank" rel="noreferrer">Source code <span>↗</span></a></div></div>
+        </article>
+        <article class="project-card">
+          <div class="project-preview preview-fullstack"><div class="preview-top"><span class="preview-window-dots"><i></i><i></i><i></i></span><span class="preview-label">FULL-STACK PROJECT</span></div><div class="preview-art code-art"><div class="code-window"><span>const</span> <b>build</b> = () =&gt; {<br>&nbsp;&nbsp;ship<span>();</span><br>};</div></div></div>
+          <div class="project-content"><div class="project-meta"><span>Web Development</span></div><h3>SkillForge</h3><p>A full-stack web development project bringing together frontend and backend technologies.</p><div class="tag-list"><span>Frontend</span><span>Backend</span><span>Full Stack</span></div><div class="project-links"><a href="https://github.com/Muhammad-Sameer29/SkillForge" target="_blank" rel="noreferrer">Source code <span>↗</span></a></div></div>
+        </article>
+        <article class="project-card">
+          <div class="project-preview preview-generic"><div class="preview-top"><span class="preview-window-dots"><i></i><i></i><i></i></span><span class="preview-label">LEARNING REPOSITORY</span></div><div class="preview-art generic-art"><span>&lt;/&gt;</span></div></div>
+          <div class="project-content"><div class="project-meta"><span>HTML</span></div><h3>Git Practice</h3><p>A learning repository for practicing Git, GitHub, and version-control workflows.</p><div class="tag-list"><span>Git</span><span>GitHub</span><span>Learning</span></div><div class="project-links"><a href="https://github.com/Muhammad-Sameer29/git-practice" target="_blank" rel="noreferrer">Source code <span>↗</span></a></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="section-wrap about-layout">
+        <div class="about-title"><p class="eyebrow">02 / A LITTLE ABOUT ME</p><h2>Curious by nature.<br><span>Developer by choice.</span></h2></div>
+        <div class="about-copy"><p class="about-lead">I enjoy turning ideas into clear, useful digital products.</p><p>My work spans responsive interfaces, reusable components, API integration, and full-stack application development. I care about maintainable code, practical user experiences, and learning the reasoning behind the tools I use.</p><a class="text-link" href="https://github.com/Muhammad-Sameer29" target="_blank" rel="noreferrer">A closer look at my code ↗</a></div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="skills">
+      <div class="section-heading"><div><p class="eyebrow">03 / MY TOOLKIT</p><h2>Tools of the <span>trade.</span></h2></div></div>
+      <div class="skills-grid">
+        <article class="skill-panel"><p class="skill-category">FRONTEND</p><div class="skill-chips"><span>Angular</span><span>React</span><span>Vue.js</span><span>Nuxt.js</span><span>TypeScript</span><span>JavaScript</span><span>HTML5</span><span>CSS3</span><span>Tailwind CSS</span><span>Bootstrap</span></div></article>
+        <article class="skill-panel"><p class="skill-category">BACKEND</p><div class="skill-chips"><span>Node.js</span><span>NestJS</span><span>Express.js</span><span>Laravel</span><span>REST APIs</span><span>JWT Authentication</span></div></article>
+        <article class="skill-panel"><p class="skill-category">DATA &amp; TOOLS</p><div class="skill-chips"><span>PostgreSQL</span><span>MySQL</span><span>Firebase</span><span>Git</span><span>Bitbucket</span><span>Responsive UI</span><span>Performance Optimization</span></div></article>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block experience-section" id="experience">
+      <div class="section-heading"><div><p class="eyebrow">04 / EXPERIENCE</p><h2>Where I've <span>grown.</span></h2></div></div>
+      <div class="timeline">
+        <article class="timeline-item"><div class="timeline-marker"><span>01</span></div><div class="timeline-content"><div class="timeline-top"><div><h3>Frontend Developer</h3><p class="company-name">Intled.io</p></div><span class="experience-type">On-site</span></div><p class="timeline-description">Worked on frontend development and modern web interfaces, with exposure to backend integration and API-driven application workflows.</p><div class="tag-list"><span>Frontend</span><span>Web Development</span><span>API Integration</span></div></div></article>
+        <article class="timeline-item"><div class="timeline-marker"><span>02</span></div><div class="timeline-content"><div class="timeline-top"><div><h3>Intern</h3><p class="company-name">Softlinks FZCO</p></div><span class="experience-type">Internship</span></div><p class="timeline-description">Gained practical experience in a professional team environment and strengthened web development and collaboration skills.</p><div class="tag-list"><span>Web Development</span><span>Teamwork</span><span>Professional Growth</span></div></div></article>
+      </div>
+      <p class="accuracy-note">Before publishing, update this section with your exact employment dates, responsibilities, and achievements.</p>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="section-wrap contact-inner">
+        <p class="eyebrow">05 / HAVE A PROJECT IN MIND?</p><h2>Let's make something<br><span>meaningful.</span></h2>
+        <p>I'm interested in opportunities to learn, collaborate, and build useful products with a good team.</p>
+        <div class="contact-actions"><a class="button button-primary" id="email-link" href="mailto:your.email@example.com">Get in touch <span>↗</span></a><a class="button button-ghost" href="https://github.com/Muhammad-Sameer29" target="_blank" rel="noreferrer">Follow on GitHub <span>↗</span></a></div>
+        <div class="contact-orb"><span>LET'S<br>BUILD.</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section-wrap"><a class="brand" href="#home"><span class="brand-mark">S<span>.</span></span><span class="brand-name">SAMEER ILYAS</span></a><span>DESIGNED &amp; BUILT WITH HTML, CSS &amp; JS</span><a href="#home">BACK TO TOP ↑</a><span>© <span id="year"></span></span></footer>
+</body>
+</html>
